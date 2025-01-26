@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 // 仮のデータ構造
 const articles = [
   { id: 1, name:"medium", title: `"RETURN to NOTO" を応援してください`, category: "know" },
-  { id: 2, name:"hoge", title: "能登で農業を始めるには", category: "start" },
+  { id: 2, name:"medium", title: "能登で農業を始めるには", category: "start" },
   // ... 他の記事
 ]
 
