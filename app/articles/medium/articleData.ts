@@ -14,7 +14,7 @@ export const medium: ArticleData =
     id: "1",
     title: '"RETURN to NOTO" を応援してください',
     supporterCount: 285,
-    mainImage: "/medium1.jpg",
+    mainImage: "/medium/medium1.jpg",
     content: [
       {
         type: "text",
@@ -44,7 +44,7 @@ export const medium: ArticleData =
       {
         type: "image",
         content:
-          "/medium2.jpg",
+          "/medium/medium2.jpg",
       },
       {
         type: "text",
@@ -78,7 +78,7 @@ export const medium: ArticleData =
       {
         type: "image",
         content:
-          "/medium3.jpg",
+          "/medium/medium3.jpg",
       },
       {
         type: "heading",
@@ -112,7 +112,7 @@ export const medium: ArticleData =
       {
         type: "image",
         content:
-          "/medium4.jpg",
+          "/medium/medium4.jpg",
       },
       {
         type: "heading",
@@ -146,7 +146,7 @@ export const medium: ArticleData =
       {
         type: "image",
         content:
-          "/medium5.jpg",
+          "/medium/medium5.jpg",
       },
       {
         type: "heading",
@@ -170,7 +170,7 @@ export const medium: ArticleData =
       {
         type: "image",
         content:
-          "/medium6.jpg",
+          "/medium/medium6.jpg",
       },
       {
         type: "heading",
