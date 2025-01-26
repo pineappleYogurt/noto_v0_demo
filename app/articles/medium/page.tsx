@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Share2 } from "lucide-react"
-import { articleData } from "./articleData"
+import { medium as articleData } from "./articleData"
 
 export default function ArticlePage() {
   return (

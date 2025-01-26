@@ -9,7 +9,7 @@ interface ArticleData {
   }[]
 }
 
-export const articleData: ArticleData =
+export const medium: ArticleData =
   {
     id: "1",
     title: '"RETURN to NOTO" を応援してください',
