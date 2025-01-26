@@ -2,6 +2,7 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Share2 } from "lucide-react"
 import { medium as articleData } from "./articleData"
+import Link from "next/link"
 
 export default function ArticlePage() {
   return (
@@ -64,16 +65,34 @@ export default function ArticlePage() {
 
           {/* サイドバー */}
           <div className="lg:col-span-4">
-            <div className="bg-white p-6 rounded-lg shadow-sm sticky top-4">
-              <div className="mb-6">
-                <div className="mt-2 text-sm text-gray-600">{articleData.supporterCount}人の支援者</div>
-              </div>
-
-              <Button className="w-full mb-4">この事業者に連絡を取る</Button>
-
+            <div className="bg-white border border-blue-200 p-6 rounded-lg shadow-sm sticky top-4">
               <div className="text-sm text-gray-600">
-                <h3 className="font-bold mb-2">お問い合わせについて</h3>
-                <p>事業についての詳細な情報や、協業のご相談など、お気軽にお問い合わせください。</p>
+                <h3 className="text-xl mb-2">お問い合わせについて</h3>
+                <p className="mb-4">事業についての詳細な情報や、協業のご相談など、お気軽にお問い合わせください。</p>
+                <Button className="w-full mb-6 bg-blue-400">
+                  <Link href="https://forms.gle/3Sdko4gWUswP4M3r7">この事業者に連絡を取る</Link>
+                </Button>
+                <h3 className="text-xl">これまでいただいたご提案</h3>
+                <div className="divide-y divide-blue-200">
+                  <div className="py-4 mb-2">
+                    <p className="font-bold mb-2">ご提案内容</p>
+                    <p className="mb-4">新聞をぜひ弊社ネットメディアに載せませんか？</p>
+                    <p className="font-bold mb-2">担当者からの回答</p>
+                    <p>現在はネットメディアでの展開は検討していません</p>
+                  </div>
+                  <div className="py-4 mb-2">
+                    <p className="font-bold mb-2">ご提案内容</p>
+                    <p className="mb-4">新聞をぜひ弊社ネットメディアに載せませんか？</p>
+                    <p className="font-bold mb-2">担当者からの回答</p>
+                    <p>現在はネットメディアでの展開は検討していません</p>
+                  </div>
+                  <div className="py-4 mb-2">
+                    <p className="font-bold mb-2">ご提案内容</p>
+                    <p className="mb-4">新聞をぜひ弊社ネットメディアに載せませんか？</p>
+                    <p className="font-bold mb-2">担当者からの回答</p>
+                    <p>現在はネットメディアでの展開は検討していません</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
